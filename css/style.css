@@ -1,0 +1,297 @@
+ 
+ .navbar{
+padding: 0%;
+ }
+
+ .nav-section{
+    animation: navbar 4s infinite;
+   
+}
+@keyframes navbar {
+    0% {
+        background-color: red;
+        color: aqua;
+    }
+
+    25% {
+        background-color: yellow;
+        color: green;
+    }
+
+    50% {
+        background-color: blue;
+        color: pink;
+    }
+
+    75% {
+        background-color: green;
+        color: red;
+    }
+
+    100% {
+        background-color: red;
+        color: bisque;
+    }
+
+}
+
+.nav-link .active {
+    margin-right: 100px;
+}
+
+.span2 {
+    background-color: rgb(59, 33, 33);
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    line-height: 2;
+}
+
+
+
+.span {
+    background-color: rgb(59, 33, 33);
+    font-weight: 600;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px red solid;
+    line-height: 2;
+}
+
+.div1 {
+    text-align: center;
+    /* background-color: bisque; */
+    padding: 25px 0px 25px 0px;
+
+}
+
+.div1text span {
+    border-radius: 5px;
+    border: 2px solid rgb(216, 105, 122);
+    font-style: italic;
+    font-size: 40px;
+}
+
+.div1text {
+    animation: div1text 4s infinite;
+    color: rgb(165, 214, 28);
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+@keyframes div1text {
+    0% {
+        top: 0px;
+        bottom: 30px;
+        color: crimson;
+
+
+    }
+
+    25% {
+        top: 20px;
+        bottom: 0px;
+        color: rgb(0, 0, 255);
+
+    }
+
+    50% {
+        top: 0px;
+        bottom: 30px;
+        color: rgb(53, 1, 53);
+    }
+
+    75% {
+        top: 20px;
+        bottom: 0px;
+        color: teal;
+    }
+
+    100% {
+        top: 0px;
+        bottom: 30px;
+        color: rgb(119, 0, 50);
+
+
+    }
+}
+
+.div2 {
+    /* background-color: deeppink; */
+    text-align: center;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.div2text {
+    /* animation: div2text 4s infinite; */
+    position: relative;
+    font-size: xx-large;
+}
+
+@keyframes div2text {
+    0% {
+        right: 0vh;
+        left: 10vh;
+    }
+
+    25% {
+        right: 15vh;
+        left: 0vh;
+    }
+
+    50% {
+        right: 0vh;
+        left: 10vh;
+    }
+
+    75% {
+        right: 10vh;
+        left: 0vh;
+    }
+
+    100% {
+        right: 0vh;
+        left: 10vh;
+    }
+}
+
+
+
+
+
+.stop {
+    /* width: 200px; */
+    background-color: bisque;
+    border: 1px solid firebrick;
+    height: 120px;
+    width: 150px;
+    margin-left: 50px;
+    padding: 15px;
+    text-shadow: 1px 1px 1px white;
+    color: firebrick;
+    font-weight: bold;
+    animation: stop 5s infinite;
+}
+
+@keyframes stop {
+    50% {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+
+.stop2 {
+    background-color: bisque;
+    border: 1px solid firebrick;
+    height: 150px;
+    width: 150px;
+    border-radius: 300px;
+    padding: 25px;
+    margin-left: 50px;
+    text-shadow: 1px 1px 1px white;
+    color: firebrick;
+    font-weight: bold;
+    animation: stop2 5s infinite;
+}
+
+@keyframes stop2 {
+    50% {
+        transform: rotate(180deg);
+    }
+}
+
+
+/* .image {
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    border: dotted 5px firebrick;
+    border-radius: 50px;
+} */
+.image {
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    border: dotted 5px firebrick;
+    border-radius: 50px;
+}
+
+.div3 {
+    background-color: navajowhite;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    color: darkred;
+    padding: 15px;
+
+}
+
+.linkimg {
+    width: 25px;
+    height: 25px;
+
+}
+
+.linksc {
+    text-decoration: none;
+    color: white;
+}
+
+.list {
+    list-style-type: none;
+
+}
+
+.link {
+    text-decoration: none;
+    color: darkred;
+}
+
+
+.footer {
+    background-color: fuchsia;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    animation: footer 4s infinite;
+}
+
+.list2 {
+    list-style-type: none;
+}
+
+@keyframes footer {
+    0% {
+        background-color: red;
+        color: aqua;
+    }
+
+    25% {
+        background-color: yellow;
+        color: green;
+    }
+
+    50% {
+        background-color: blue;
+        color: pink;
+    }
+
+    75% {
+        background-color: green;
+        color: red;
+    }
+
+    100% {
+        background-color: red;
+        color: bisque;
+    }
+}
